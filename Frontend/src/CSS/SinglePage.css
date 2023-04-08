@@ -1,0 +1,202 @@
+.main{
+    display: grid;
+    grid-template-columns: 33% 37% 30%;
+    width: 80%;
+    margin: auto;
+    margin-bottom: 50px;
+    padding-top: 170px;
+}
+
+.leftdiv{
+    width: 50%;
+    margin-top: 100px;
+    height: 400px;
+    overflow: auto;
+    padding-right: 25px;
+    font-size:14px;
+}
+.leftdiv>p{
+    font-size:12px;
+}
+.leftdiv::-webkit-scrollbar {
+    width: 1.5px;
+  }
+  
+  .leftdiv::-webkit-scrollbar-track {
+    background-color: rgb(209, 209, 209);
+  }
+  
+  .leftdiv::-webkit-scrollbar-thumb {
+    background-color: rgb(40, 39, 39);
+  }
+/* middlediv  */
+
+.middlediv{
+    margin: auto;
+}
+.middlediv1{
+    padding-right: 15px;
+    width: 85%;
+}
+.middlediv1>img{
+    width: 100%;
+}
+.middlediv2{
+    width: 15%;
+    text-align: center;
+}
+.middlediv2>img{
+    width: 80%;
+}
+.rightdiv{
+    width: 60%;
+    margin: auto;
+}
+.rightdiv>p{
+    font-size:13px;
+}
+#size{
+    /* border-top: 1px solid black;
+    border-bottom: 1px solid black; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.selectsize{
+    border: none;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    padding: 25px 20px;
+    width: 100%;
+}
+.addbutton{
+    padding-top: 7px;
+    padding-bottom: 7px;
+    color: white;
+    background-color: black;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.bag2btn{
+    padding-top: 5px;
+    padding-bottom: 5px;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    width: 50%;
+}
+.similaritem{
+    width: 90%;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 20px;
+}
+
+/* helpPage  */
+
+.helppage1{
+    display: grid;
+    width: 100%;
+    margin: auto;
+    grid-template-columns: repeat(5,1fr);
+    gap: 25px;
+}
+.helppage2{
+    height: 100px;
+    width: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    /* border: 1px solid black; */
+    font-size: 14px;
+    margin: 20px;
+}
+.helppage2>img{
+    width: 50%;
+}
+.mw1{
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+@media only screen and (max-width: 800px) {
+    .leftall{
+        display: none;
+    }
+    .main{
+        display: grid;
+        grid-template-columns: 43% 57%;
+        width: 90%;
+        margin: auto;
+    }
+    .rightdiv{
+        width: 70%;
+        margin: auto;
+    }
+    .helppage1{
+        display: grid;
+        width: 100%;
+        margin: auto;
+        grid-template-columns: repeat(4,1fr);
+        gap: 15px;
+    }
+  }
+  @media only screen and (max-width: 500px) {
+    .leftall{
+        display: none;
+    }
+    .main{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        width: 90%;
+        margin: auto;
+    }
+    .rightdiv{
+        width: 70%;
+        margin: auto;
+        margin-top: 50px;
+        margin-bottom: 50px;
+    }
+    .mw1{
+        width:200px;
+    }
+    .helppage1{
+        display: grid;
+        width: 100%;
+        margin: auto;
+        grid-template-columns: repeat(3,1fr);
+        gap: 25px;
+    }
+  }
+  @media only screen and (max-width: 330px) {
+    .matchwith{
+        width: 90%;
+    }
+    .matchwith div{
+        width:200px;
+    }
+   
+    .helppage1{
+        display: grid;
+        width: 100%;
+        margin: auto;
+        grid-template-columns: repeat(2,1fr);
+        gap: 25px;
+    }
+
+    .middlediv1{
+        padding:20px;
+    }
+    .middlediv2{
+        display:none;
+    }
+    
+  }

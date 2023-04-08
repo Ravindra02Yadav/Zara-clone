@@ -1,0 +1,196 @@
+
+
+.Login_main_box {
+    width: 80%;
+    margin: auto;
+    font-size:12px;
+}
+.Login_second_box {
+    width: 100%;
+    display:flex;
+    align-items:flex-start;
+
+}
+
+.Login_second_box {
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.Login_second_box>div:nth-child(2) {
+    width: 530px;
+    text-align: left;
+}
+
+.Login_second_box>div:nth-child(2)>button {
+    background-color: #0c0c0c;
+    border: none;
+    color: white;
+    padding: 8px 15px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    margin-top: 30px;
+}
+
+.Login_second_box>div>form>button {
+    background-color: #0c0c0c;
+    border: none;
+    color: white;
+    padding: 8px 69px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+.Login_second_box>div>form>input {
+    border: none;
+    outline: none;
+    border-bottom:1px solid gray;
+    width:95%;
+}
+
+.Login_second_box>div>form>hr {
+    margin-top: -18px;
+
+}
+
+
+@media only screen and (min-width: 769px) and (max-width:948px){
+    .Login_main_box {
+        width: 90%;
+        margin: auto;
+    }
+   .Login_second_box{
+        flex-direction:column;
+        margin-top: 0px;
+   }
+   .Login_second_box1{
+       width:100%;
+       font-size: 20px;
+
+    }
+
+    .Login_second_box2{
+        width:100%;
+        font-size: 15px;
+        margin-top:50px;
+    }
+
+}
+
+@media only screen and (min-width: 769px) and (max-width:845px){
+    .Login_main_box {
+        width: 90%;
+        margin: auto;
+    }
+   .Login_second_box{
+        flex-direction:column;
+        margin-top: 0px;
+   }
+   .Login_second_box1{
+       width:100%;
+       font-size: 20px;
+
+    }
+    .Login_second_box2{
+        display: none;
+     }
+
+
+
+     .Login_second_box1{
+        width:100%;
+        font-size: 20px;
+        margin-bottom:50px;
+
+     }
+}
+
+@media only screen and (min-width: 481px) and (max-width:768px){
+    .Login_main_box {
+        width: 90%;
+        margin: auto;
+    }
+   .Login_second_box{
+        flex-direction:column;
+        margin-top: 0px;
+   }
+   .Login_second_box1{
+       width:100%;
+       font-size: 20px;
+
+    }
+    .Login_second_box2{
+        display: none;
+     }
+
+
+     .Login_second_box1{
+        width:100%;
+        font-size: 20px;
+        margin-bottom:50px;
+
+     }
+}
+
+@media only screen and (min-width:320px) and (max-width:480px){
+
+    .Login_main_box {
+        width: 90%;
+        margin: auto;
+    }
+   .Login_second_box{
+        flex-direction:column;
+        margin-top: 0px;
+   }
+   .Login_second_box1{
+       width:100%;
+       font-size: 15px;
+
+    }
+    .Login_second_box2{
+        display: none;
+     }
+
+     .Login_second_box1{
+        width:100%;
+        font-size: 15px;
+        margin-bottom:50px;
+
+     }
+
+}
+
+@media only screen and (max-width: 320px){
+    .Login_main_box {
+        width: 90%;
+        margin: auto;
+    }
+   .Login_second_box{
+        flex-direction:column;
+        margin-top: 0px;
+   }
+   .Login_second_box1{
+       width:100%;
+       font-size: 15px;
+
+    }
+    .Login_second_box2{
+        display: none;
+     }
+
+     .Login_second_box1{
+        width:100%;
+        font-size: 15px;
+        margin-bottom:50px;
+
+     }
+}

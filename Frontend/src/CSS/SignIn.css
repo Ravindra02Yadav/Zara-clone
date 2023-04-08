@@ -1,0 +1,232 @@
+.navbar_space {
+    /* border: 1px solid black; */
+    height: 200px;
+}
+
+.signin_main_box {
+    /* border: 1px solid black; */
+    width: 75%;
+    margin: auto;
+}
+
+.signin_main_box>h3 {
+    text-align: left;
+    margin-bottom: 30px;
+}
+
+.personal_company_toggle {
+    display: grid;
+    grid-template-columns: repeat(8, 1fr);
+    /* border: 1px solid red; */
+    text-align: left;
+    font-size: 13px;
+}
+
+.signin_second_box {
+    /* border: 1px solid black; */
+    display: flex;
+    gap: 20px;
+}
+
+.signin_second_box>div:nth-child(1) {
+    /* border: 1px solid red; */
+    width: 400px;
+    text-align: left;
+}
+
+.signin_second_box>div>form>input {
+    border: none;
+    outline: none;
+    font-size: 10px;
+    letter-spacing: 1px;
+    width: 100%;
+}
+
+.signin_second_box>div>form>label {
+    border: none;
+    outline: none;
+    font-size: 10px;
+}
+
+.signin_second_box>div>form>select {
+    border: none;
+    outline: none;
+    width: 400px;
+}
+
+.signin_second_box>div>form>hr {
+    margin-top: -18px;
+
+}
+
+.submitSection>button {
+    background-color: #0c0c0c;
+    border: none;
+    color: white;
+    padding: 5px 129px;
+    margin: 4px 2px;
+    cursor: pointer;
+    margin-top: 30px;
+}
+
+
+.prefix_telephone {
+    display: flex;
+    font-size: 10px;
+    margin-bottom: 10px;
+}
+
+.prefix_telephone>:nth-child(1) {
+    width: 100px;
+    /* border: 1px solid blue; */
+
+}
+
+.prefix_telephone>:nth-child(2)>input {
+    border: none;
+    outline: none;
+
+}
+
+.prefix_telephone>:nth-child(2)>label {
+    font-size: 10px;
+}
+
+.prefix_telephone>:nth-child(2)>hr {
+    margin-top: -1px;
+    border: 1px solid black;
+}
+
+/* ***************box2********* */
+
+.signin_second_box>div:nth-child(2) {
+    text-align: left;
+    width: 400px;
+    margin-top:-22px;
+}
+
+.signin_second_box>div:nth-child(2)>input {
+    border: none;
+    outline: none;
+    font-size: 10px;
+    letter-spacing: 1px;
+    width: 100%;
+}
+
+.invisiblehr {
+    border: 1px solid white;
+}
+
+.signin_second_box>div:nth-child(2)>hr {
+    margin-top: -18px;
+}
+
+.signin_second_box>div:nth-child(2)>label {
+    font-size: 10px;
+}
+
+.checkbox_input {
+    font-size: 13px;
+}
+
+@media only screen and (min-width: 769px) and (max-width:968px) {
+    .personal_company_toggle {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        /* border: 1px solid red; */
+        text-align: left;
+        font-size: 13px;
+    }
+
+    
+    .signin_second_box {
+        flex-direction: column;
+        gap:0px;
+    }
+
+    .signin_second_box>div:nth-child(1),.signin_second_box>div:nth-child(2) {
+        /* border: 1px solid red; */
+        width: 100%;
+    }
+}
+
+@media only screen and (min-width: 769px) and (max-width:845px) {
+
+    .personal_company_toggle {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        /* border: 1px solid red; */
+        text-align: left;
+        font-size: 13px;
+    }
+
+    .signin_second_box {
+        flex-direction: column;
+        gap:0px;
+    }
+
+    .signin_second_box>div:nth-child(1),.signin_second_box>div:nth-child(2) {
+        /* border: 1px solid red; */
+        width: 100%;
+    }
+
+    
+}
+
+@media only screen and (min-width: 481px) and (max-width:768px) {
+
+    .personal_company_toggle {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        /* border: 1px solid red; */
+        text-align: left;
+        font-size: 13px;
+        gap:20px;
+    }
+    .signin_second_box {
+        flex-direction: column;
+        gap:0px;
+    }
+
+    .signin_second_box>div:nth-child(1),.signin_second_box>div:nth-child(2) {
+        /* border: 1px solid red; */
+        width: 100%;
+    }
+}
+
+@media only screen and (min-width: 320px) and (max-width:480px) {
+
+    .personal_company_toggle {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        /* border: 1px solid red; */
+        text-align: left;
+        font-size: 13px;
+        gap:20px;
+    }
+    .signin_second_box {
+        flex-direction: column;
+        gap:0px;
+    }
+
+    .signin_second_box>div:nth-child(1),.signin_second_box>div:nth-child(2) {
+        /* border: 1px solid red; */
+        width: 100%;
+    }
+    /* .signin_main_box{
+        width:90%;
+        margin:auto;
+        border: 1px solid red;
+    }
+
+    .signin_second_box {
+        width:100%;
+        flex-direction: column;
+        gap:0px;
+    }
+
+    .signin_second_box>div:nth-child(1),.signin_second_box>div:nth-child(2){
+        border: 1px solid red;
+        width: 100%;
+    } */
+}
