@@ -1,0 +1,91 @@
+
+Authentication - It's just a way of Identifying who someone is
+
+Authorization - is a way of determining what access does someone have
+
+
+
+Authentication - 
+            1. Signup/Register/create Account
+                  email : 
+                  password : 
+                     store the email and password in the DB
+
+            2. Login
+                  email : 
+                  password : 
+
+                  email && password is correct ? login success : login failed
+
+            
+            3. Protected endpoints
+                  /weather
+                  /purchased
+
+               
+
+                  a. X we'll make them login at every protected endpoint
+                            1st - you are annoying the user/not the right user experience
+                            2nd - not an optimal way, querying db's user collection again and again
+
+                  b. token 
+                          when someone logs in successfully, we give them a token - "abc765"
+                          we'll check the token when they visit the protected endpoint
+                          if token is correct? "give that endpoint access" : "login again"
+
+                
+
+                Token 
+                  a.  "abc765" - for everyone who logs in successfully;
+                         - token is not unique per user
+                         - Math.random()
+                        
+
+
+                    solution - JWT - https://jwt.io/
+
+                    1. Algorithm used 
+                    2. is some data - optional
+                    3. secret key;
+                    
+
+                    1. Install jsonwebtoken package.
+                    2. 
+                 
+                 
+                 
+                 
+                 
+                 
+                  b. /weather - taking token from query;
+
+
+
+
+
+
+
+
+hello - 1 char forward
+ifmmp
+
+
+Having password in plain-text;
+  - 1 . anyone with access to DB can see the password and can misuse it.
+  - 2. in case of data dumps, password shouldn't be misused;
+
+
+bcrypt
+
+
+
+signup - abc ---> myza -> store in DB
+
+loginin - abd, myza -> compare() => false
+
+
+
+abc -> 2 char ->  
+
+more the no of rounds = more secure the password
+
