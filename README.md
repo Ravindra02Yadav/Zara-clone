@@ -12,6 +12,9 @@ The tech Stack we used for creating this website are :-
 4. React
 5. Redux
 6. Material UI
+7. NodeJs
+8. Express JS
+9. MongoDB
 
 ## Landing Page :
 The landing page of ZARA.com displays the navigation bar which contains menu bar , search button , helps , Login Cart.
